@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+h1 {
+    position: absolute;
+    top: 5px;
+}
+#score {
+    right: 100px;
+}
+#best-score {
+    right: 300px;
+}
+#reset {
+    font-size: 40px;
+    top: 4px;
+    color: red;
+    opacity: 0;
+}
